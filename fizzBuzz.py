@@ -1,16 +1,15 @@
 def isFizz(checkNum):
   if((checkNum % 15) == 0):
-      print "FizzBuzz"
+      return "FizzBuzz"
   elif(checkNum % 3 == 0):
-       print "Fizz"
+       return "Fizz"
   elif((checkNum % 5) == 0):
-       print "Buzz"
+       return "Buzz"
   else:
-       print checkNum
+       return checkNum
 
 
-
-count = 1
-while count<101:
-    isFizz(count)
-    count += 1
+# count = 1
+# while count<101:
+#     isFizz(count)
+#     count += 1
